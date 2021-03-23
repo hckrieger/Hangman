@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/hunte/source/repos/Hangman/Content/Letter.spritefont","C:/Users/hunte/source/repos/Hangman/Content/bin/DesktopGL/Content/Letter.xnb","FontDescriptionProcessor","SpriteFontContent",2005,21538,0.8065136
+"C:/Users/hunte/source/repos/Hangman/Content/Songs/1994_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1994_songs.txt","CopyItem","File",185,185,0.0105387
+"C:/Users/hunte/source/repos/Hangman/Content/Songs/1995_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1995_songs.txt","CopyItem","File",201,201,0.0034261
+"C:/Users/hunte/source/repos/Hangman/Content/Songs/1996_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1996_songs.txt","CopyItem","File",218,218,0.0036042
