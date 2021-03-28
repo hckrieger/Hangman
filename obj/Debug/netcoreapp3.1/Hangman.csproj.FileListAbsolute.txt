@@ -31,3 +31,14 @@ C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\1996_songs.t
 C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1994_songs.txt
 C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1995_songs.txt
 C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1996_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\yearList.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1993_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1997_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1991_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1992_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1990_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1998_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1999_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\2000_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\1989_songs.txt
+C:\Users\hunte\source\repos\Hangman\bin\Debug\netcoreapp3.1\Content\Songs\2001_songs.txt

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2qd+5SQb1HNzM68FYn05lz1poz9SBZiFyIpWMZkzDkGSl7VO/igvawjAFz/MNqsoNgWrDTG88DHciNJg9hjMiA==",
+  "dgSpecHash": "RUq3kr810WJ5V3LWk9Lv/hTympm4iCknFu9cWnnZqALQbczZoRz2onuHKuOEqHHNqlPd6A76SGYIxsrpcQfNVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hunte\\source\\repos\\Hangman\\Hangman.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,8 @@
     "C:\\Users\\hunte\\.nuget\\packages\\monogame.extended\\3.8.0\\monogame.extended.3.8.0.nupkg.sha512",
     "C:\\Users\\hunte\\.nuget\\packages\\monogame.extended.input\\3.8.0\\monogame.extended.input.3.8.0.nupkg.sha512",
     "C:\\Users\\hunte\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\hunte\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\hunte\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\hunte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

@@ -20,6 +20,21 @@
 /processorParam:TextureFormat=Compressed
 /build:Letter.spritefont
 
+#begin Songs/1989_songs.txt
+/copy:Songs/1989_songs.txt
+
+#begin Songs/1990_songs.txt
+/copy:Songs/1990_songs.txt
+
+#begin Songs/1991_songs.txt
+/copy:Songs/1991_songs.txt
+
+#begin Songs/1992_songs.txt
+/copy:Songs/1992_songs.txt
+
+#begin Songs/1993_songs.txt
+/copy:Songs/1993_songs.txt
+
 #begin Songs/1994_songs.txt
 /copy:Songs/1994_songs.txt
 
@@ -28,4 +43,22 @@
 
 #begin Songs/1996_songs.txt
 /copy:Songs/1996_songs.txt
+
+#begin Songs/1997_songs.txt
+/copy:Songs/1997_songs.txt
+
+#begin Songs/1998_songs.txt
+/copy:Songs/1998_songs.txt
+
+#begin Songs/1999_songs.txt
+/copy:Songs/1999_songs.txt
+
+#begin Songs/2000_songs.txt
+/copy:Songs/2000_songs.txt
+
+#begin Songs/2001_songs.txt
+/copy:Songs/2001_songs.txt
+
+#begin Songs/yearList.txt
+/copy:Songs/yearList.txt
 

@@ -22,6 +22,8 @@ namespace Hangman
         LetterSelect[,] letterGrid;
         InfoReader infoReader = new InfoReader();
 
+        bool finish = false;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -31,34 +33,11 @@ namespace Hangman
 
         protected override void LoadContent()
         {
-
-            int windowWidth = 430;
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             font = Content.Load<SpriteFont>("Letter");
-            // TODO: use this.Content to load your game content here
 
             letters = "ABCDEFGHI-JKLMNOPQR-STUVWXYZ";
-            answerStr = infoReader.PickSong;
-            display = "";
-
             spacing = 40;
-            revealedLetters = 0;
-            wrongTries = 0;
-
-            answerObj = new Answer(answerStr);
-            int lastSongCharPos = 125 + (answerObj.SongCharCount * 20) + 50;
-            int lastArtistCharPos = 125 + (answerObj.ArtistCharCount * 20) + 50;
-
-            int lastCharPos = MathHelper.Max(lastSongCharPos, lastArtistCharPos);
-           
-
-            if (lastCharPos > windowWidth)
-                _graphics.PreferredBackBufferWidth = lastCharPos;
-            else
-                _graphics.PreferredBackBufferWidth = windowWidth;
-
-            _graphics.PreferredBackBufferHeight = 500;
-            _graphics.ApplyChanges();
 
             divider = letters.Split("-");
 
@@ -68,20 +47,9 @@ namespace Hangman
                 rowLetters[i] = divider[i].ToCharArray();
 
             letterGrid = new LetterSelect[rowLetters[0].Length, divider.Length];
-            
 
-            for (int y = 0; y < divider.Length; y++)
-            {
-                for (int x = 0; x < rowLetters[y].Length; x++)
-                {
-                    Vector2 letterSize = font.MeasureString(rowLetters[y][x].ToString());
+            Reset();
 
-                    RectangleF bounds = new RectangleF(x * spacing + offset.X, y * spacing + offset.Y, letterSize.X, letterSize.Y);
-
-                    letterGrid[x, y] = new LetterSelect(rowLetters[y][x], bounds, answerStr);
-
-                }
-            }      
         }
 
         protected override void Update(GameTime gameTime)
@@ -90,10 +58,11 @@ namespace Hangman
                 Exit();
 
             MouseStateExtended mouse = MouseExtended.GetState();
+            KeyboardStateExtended keyboard = KeyboardExtended.GetState();
 
             // TODO: Add your update logic here
 
-            
+
 
             for (int y = 0; y < divider.Length; y++)
             {
@@ -127,20 +96,27 @@ namespace Hangman
 
                         if (revealedLetters >= answerObj.LetterCount)
                         {
-                            display = "You Win!";
-                        } else if (wrongTries >= 6)
+                            display = "You Win!\nClick to play again";
+                            finish = true;
+                        }
+                        else if (wrongTries >= 6)
                         {
                             for (int i = 0; i < answerObj.SongCharCount; i++)
                                 answerObj.SongCharObj[i].IsVisible = true;
 
                             for (int i = 0; i < answerObj.ArtistCharCount; i++)
                                 answerObj.ArtistCharObj[i].IsVisible = true;
-                            display = "You Lose!";
+                            display = "You Lose!\nClick to play again";
+                            finish = true;
                         }
-                            
-
-                    } 
+                    }
                 }
+            }
+
+            if (finish && keyboard.WasAnyKeyJustDown())
+            {
+                Reset();
+                finish = false;
             }
 
 
@@ -161,8 +137,8 @@ namespace Hangman
                         fontColor = Color.Black;
                     else
                         fontColor = Color.Red;
-                        
-                    _spriteBatch.DrawString(font, letterGrid[x, y].Char.ToString(), new Vector2(x, y) * spacing + offset, fontColor);                   
+
+                    _spriteBatch.DrawString(font, letterGrid[x, y].Char.ToString(), new Vector2(x, y) * spacing + offset, fontColor);
                 }
             }
 
@@ -192,10 +168,10 @@ namespace Hangman
             }
 
 
-                AnswerDraw(answerObj.SongCharCount, answerObj.SongCharObj, 100, 110);
-       
-                AnswerDraw(answerObj.ArtistCharCount, answerObj.ArtistCharObj, 150, 160);
-          
+            AnswerDraw(answerObj.SongCharCount, answerObj.SongCharObj, 100, 110);
+
+            AnswerDraw(answerObj.ArtistCharCount, answerObj.ArtistCharObj, 150, 160);
+
 
             _spriteBatch.DrawString(font, display, new Vector2(300, 450), Color.Black);
 
@@ -206,8 +182,52 @@ namespace Hangman
             base.Draw(gameTime);
         }
 
-   
+        void Reset()
+        {
+            int windowWidth = 430;
 
-        
+            // TODO: use this.Content to load your game content here
+            infoReader.Reset();
+            
+            answerStr = infoReader.PickSong;
+            display = "";
+
+            
+            revealedLetters = 0;
+            wrongTries = 0;
+
+            answerObj = new Answer(answerStr);
+
+            int lastSongCharPos = 125 + (answerObj.SongCharCount * 20) + 50;
+            int lastArtistCharPos = 125 + (answerObj.ArtistCharCount * 20) + 50;
+
+            int lastCharPos = MathHelper.Max(lastSongCharPos, lastArtistCharPos);
+
+
+            if (lastCharPos > windowWidth)
+                _graphics.PreferredBackBufferWidth = lastCharPos;
+            else
+                _graphics.PreferredBackBufferWidth = windowWidth;
+
+            _graphics.PreferredBackBufferHeight = 500;
+            _graphics.ApplyChanges();
+
+
+            for (int y = 0; y < divider.Length; y++)
+            {
+                for (int x = 0; x < rowLetters[y].Length; x++)
+                {
+                    Vector2 letterSize = font.MeasureString(rowLetters[y][x].ToString());
+
+                    RectangleF bounds = new RectangleF(x * spacing + offset.X, y * spacing + offset.Y, letterSize.X, letterSize.Y);
+
+                    letterGrid[x, y] = new LetterSelect(rowLetters[y][x], bounds, answerStr);
+
+                }
+            }
+        }
+
     }
+
+
 }

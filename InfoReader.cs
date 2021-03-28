@@ -8,7 +8,7 @@ namespace Hangman
 {
     class InfoReader
     {
-        
+
         List<string> songInfo = new List<string>();
         string pickSong;
         Random randomSong = new Random();
@@ -18,7 +18,17 @@ namespace Hangman
 
         public InfoReader()
         {
-            year = randomYear.Next(1994, 1997);
+
+            Reset();
+        }
+
+        public void Reset()
+        {
+            
+            if (songInfo.Count > 0)
+                songInfo.Clear();
+
+            year = randomYear.Next(1989, 2002);
             StreamReader songReader = new StreamReader($"Content/Songs/{year}_songs.txt");
 
             string line = songReader.ReadLine();
@@ -27,8 +37,6 @@ namespace Hangman
                 songInfo.Add(line);
                 line = songReader.ReadLine();
             }
-
-            pickSong = songInfo[0];
         }
 
         public string PickSong
@@ -38,7 +46,7 @@ namespace Hangman
 
         public int RandomYear
         {
-            get { return year;  }
+            get { return year; }
         }
     }
 }
