@@ -5,15 +5,13 @@ namespace Hangman
 {
     class LetterSelect
     {
-        char letter;
+        readonly char letter;
         public RectangleF BoundingBox { get; set; }
-
-        int occurrences = 0;
 
         public string answerStr;
         bool selected = false;
 
-        bool letterExistsInString;
+        readonly bool letterExistsInString;
 
         public LetterSelect(char letter, RectangleF boundingBox, string answerStr)
         {

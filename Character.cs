@@ -6,16 +6,13 @@ namespace Hangman
 {
     class Character
     {
-        char character;
-        int position;
+        readonly char character;
         bool isLetter;
         bool isVisible = false;
-        bool selected = false;
 
-        public Character(char character, int position, bool isLetter)
+        public Character(char character,  bool isLetter)
         {
             this.character = character;
-            this.position = position;
             this.isLetter = isLetter;
 
             if (!isLetter)

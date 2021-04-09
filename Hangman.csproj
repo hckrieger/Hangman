@@ -10,6 +10,8 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Content\obj\DesktopGL\Content\Images\game_over.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Content\Images\hangman.mgcontent" />
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
   </ItemGroup>

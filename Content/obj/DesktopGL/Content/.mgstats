@@ -1,2 +1,18 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/Hunter K/source/repos/Hangman/Content/Letter.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Letter.xnb","FontDescriptionProcessor","SpriteFontContent",2065,21538,0.3967068
+"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterDisplay.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Fonts/LetterDisplay.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.400398
+"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterSelect.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Fonts/LetterSelect.xnb","FontDescriptionProcessor","SpriteFontContent",2005,37922,0.3283904
+"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/Title.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Fonts/Title.xnb","FontDescriptionProcessor","SpriteFontContent",2005,70690,0.4424983
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/0_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/0_wrong.xnb","TextureProcessor","Texture2DContent",535,49285,0.2539936
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/1_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/1_wrong.xnb","TextureProcessor","Texture2DContent",850,49285,0.0131654
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/2_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/2_wrong.xnb","TextureProcessor","Texture2DContent",913,49285,0.0100538
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/3_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/3_wrong.xnb","TextureProcessor","Texture2DContent",1038,49285,0.0099005
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/4_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/4_wrong.xnb","TextureProcessor","Texture2DContent",1161,49285,0.0097886
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/5_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/5_wrong.xnb","TextureProcessor","Texture2DContent",1258,49285,0.0131553
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/6_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/6_wrong.xnb","TextureProcessor","Texture2DContent",1291,49285,0.0122875
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1987_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1987_songs.txt","CopyItem","File",913,913,0.0060591
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1988_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1988_songs.txt","CopyItem","File",830,830,0.0073086
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1989_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1989_songs.txt","CopyItem","File",850,850,0.0077114
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1990_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1990_songs.txt","CopyItem","File",754,754,0.0068408
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2000_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2000_songs.txt","CopyItem","File",769,769,0.0081911
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2002_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2002_songs.txt","CopyItem","File",737,737,0.0076508
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2003_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2003_songs.txt","CopyItem","File",725,725,0.0067249

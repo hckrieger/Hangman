@@ -1,16 +1,18 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/hunte/source/repos/Hangman/Content/Letter.spritefont","C:/Users/hunte/source/repos/Hangman/Content/bin/DesktopGL/Letter.xnb","FontDescriptionProcessor","SpriteFontContent",2005,21538,1.6988429
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1989_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1989_songs.txt","CopyItem","File",853,853,0.0075139
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1990_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1990_songs.txt","CopyItem","File",756,756,0.0094445
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1991_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1991_songs.txt","CopyItem","File",756,756,0.0075805
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1992_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1992_songs.txt","CopyItem","File",730,730,0.0204593
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1993_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1993_songs.txt","CopyItem","File",722,722,0.0029361
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1994_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1994_songs.txt","CopyItem","File",670,670,0.018457
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1995_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1995_songs.txt","CopyItem","File",810,810,0.0038744
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1996_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1996_songs.txt","CopyItem","File",794,794,0.0141846
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1997_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1997_songs.txt","CopyItem","File",777,777,0.0091095
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1998_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1998_songs.txt","CopyItem","File",761,761,1.4141937
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/1999_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/1999_songs.txt","CopyItem","File",745,745,0.0239482
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/2000_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/2000_songs.txt","CopyItem","File",770,770,0.0191046
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/2001_songs.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/2001_songs.txt","CopyItem","File",773,773,0.0050011
-"C:/Users/hunte/source/repos/Hangman/Content/Songs/yearList.txt","C:\Users\hunte\source\repos\Hangman\Content\bin\DesktopGL\Songs/yearList.txt","CopyItem","File",16,16,0.0036176
+"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterDisplay.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Fonts/LetterDisplay.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.3888368
+"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterSelect.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Fonts/LetterSelect.xnb","FontDescriptionProcessor","SpriteFontContent",2005,37922,0.0358724
+"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/Title.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Fonts/Title.xnb","FontDescriptionProcessor","SpriteFontContent",2005,70690,0.0365061
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/0_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Images/0_wrong.xnb","TextureProcessor","Texture2DContent",535,49285,0.2899072
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/1_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Images/1_wrong.xnb","TextureProcessor","Texture2DContent",850,49285,0.0105455
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/2_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Images/2_wrong.xnb","TextureProcessor","Texture2DContent",913,49285,0.0113554
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/3_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Images/3_wrong.xnb","TextureProcessor","Texture2DContent",1038,49285,0.0105155
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/4_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Images/4_wrong.xnb","TextureProcessor","Texture2DContent",1161,49285,0.0119747
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/5_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Images/5_wrong.xnb","TextureProcessor","Texture2DContent",1258,49285,0.0124397
+"C:/Users/Hunter K/source/repos/Hangman/Content/Images/6_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Images/6_wrong.xnb","TextureProcessor","Texture2DContent",1291,49285,0.0098675
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1987_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Songs/1987_songs.txt","CopyItem","File",913,913,0.0066802
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1988_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Songs/1988_songs.txt","CopyItem","File",830,830,0.007883
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1989_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Songs/1989_songs.txt","CopyItem","File",850,850,0.0085474
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1990_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Songs/1990_songs.txt","CopyItem","File",754,754,0.0081349
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2000_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Songs/2000_songs.txt","CopyItem","File",769,769,0.0035417
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2002_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Songs/2002_songs.txt","CopyItem","File",737,737,0.0076126
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2003_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Songs/2003_songs.txt","CopyItem","File",725,725,0.0067355

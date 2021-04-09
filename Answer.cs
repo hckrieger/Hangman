@@ -5,8 +5,7 @@ namespace Hangman
 {
     class Answer
     {
-        string answer, song, artist;
-        int strLength;
+        readonly string song, artist;
         public Character[] SongCharObj { get; set; }
         public Character[] ArtistCharObj { get; set; }
 
@@ -16,9 +15,7 @@ namespace Hangman
 
         public Answer(string answer)
         {
-            this.answer = answer;
 
-            strLength = answer.Length;
 
             SongOrArtist.Add(0, SongCharObj);
             SongOrArtist.Add(1, ArtistCharObj);
@@ -39,7 +36,7 @@ namespace Hangman
                     if (isLetter)
                         letters++;
 
-                    character[i] = new Character(str[i], i, isLetter);
+                    character[i] = new Character(str[i], isLetter);
                 }
             }
 

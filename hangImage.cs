@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hangman
 {
-    class GameWorld
+    class hangImage
     {
     }
 }
