@@ -244,8 +244,8 @@ namespace Hangman
 
             answerObj = new Answer(answerStr); //put the song in the answer object 
 
-            int lastSongCharPos = 125 + (answerObj.SongCharCount * 23) + 100;  // position of the last character of the song
-            int lastArtistCharPos = 125 + (answerObj.ArtistCharCount * 23) + 100; // position of the last character of the artist
+            int lastSongCharPos = 125 + (answerObj.SongCharCount * 23) + 50;  // position of the last character of the song
+            int lastArtistCharPos = 125 + (answerObj.ArtistCharCount * 23) + 50; // position of the last character of the artist
             //int hangManPos = 
 
             int lastCharPos = MathHelper.Max(lastSongCharPos, lastArtistCharPos);
