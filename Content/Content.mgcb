@@ -118,6 +118,105 @@
 /processorParam:TextureFormat=Color
 /build:Images/6_wrong.png
 
+#begin Songs/1954_songs.txt
+/copy:Songs/1954_songs.txt
+
+#begin Songs/1955_songs.txt
+/copy:Songs/1955_songs.txt
+
+#begin Songs/1956_songs.txt
+/copy:Songs/1956_songs.txt
+
+#begin Songs/1957_songs.txt
+/copy:Songs/1957_songs.txt
+
+#begin Songs/1958_songs.txt
+/copy:Songs/1958_songs.txt
+
+#begin Songs/1959_songs.txt
+/copy:Songs/1959_songs.txt
+
+#begin Songs/1960_songs.txt
+/copy:Songs/1960_songs.txt
+
+#begin Songs/1961_songs.txt
+/copy:Songs/1961_songs.txt
+
+#begin Songs/1962_songs.txt
+/copy:Songs/1962_songs.txt
+
+#begin Songs/1963_songs.txt
+/copy:Songs/1963_songs.txt
+
+#begin Songs/1964_songs.txt
+/copy:Songs/1964_songs.txt
+
+#begin Songs/1965_songs.txt
+/copy:Songs/1965_songs.txt
+
+#begin Songs/1966_songs.txt
+/copy:Songs/1966_songs.txt
+
+#begin Songs/1967_songs.txt
+/copy:Songs/1967_songs.txt
+
+#begin Songs/1968_songs.txt
+/copy:Songs/1968_songs.txt
+
+#begin Songs/1969_songs.txt
+/copy:Songs/1969_songs.txt
+
+#begin Songs/1970_songs.txt
+/copy:Songs/1970_songs.txt
+
+#begin Songs/1971_songs.txt
+/copy:Songs/1971_songs.txt
+
+#begin Songs/1972_songs.txt
+/copy:Songs/1972_songs.txt
+
+#begin Songs/1973_songs.txt
+/copy:Songs/1973_songs.txt
+
+#begin Songs/1974_songs.txt
+/copy:Songs/1974_songs.txt
+
+#begin Songs/1975_songs.txt
+/copy:Songs/1975_songs.txt
+
+#begin Songs/1976_songs.txt
+/copy:Songs/1976_songs.txt
+
+#begin Songs/1977_songs.txt
+/copy:Songs/1977_songs.txt
+
+#begin Songs/1978_songs.txt
+/copy:Songs/1978_songs.txt
+
+#begin Songs/1979_songs.txt
+/copy:Songs/1979_songs.txt
+
+#begin Songs/1980_songs.txt
+/copy:Songs/1980_songs.txt
+
+#begin Songs/1981_songs.txt
+/copy:Songs/1981_songs.txt
+
+#begin Songs/1982_songs.txt
+/copy:Songs/1982_songs.txt
+
+#begin Songs/1983_songs.txt
+/copy:Songs/1983_songs.txt
+
+#begin Songs/1984_songs.txt
+/copy:Songs/1984_songs.txt
+
+#begin Songs/1985_songs.txt
+/copy:Songs/1985_songs.txt
+
+#begin Songs/1986_songs.txt
+/copy:Songs/1986_songs.txt
+
 #begin Songs/1987_songs.txt
 /copy:Songs/1987_songs.txt
 
@@ -168,4 +267,55 @@
 
 #begin Songs/2003_songs.txt
 /copy:Songs/2003_songs.txt
+
+#begin Songs/2004_songs.txt
+/copy:Songs/2004_songs.txt
+
+#begin Songs/2005_songs.txt
+/copy:Songs/2005_songs.txt
+
+#begin Songs/2006_songs.txt
+/copy:Songs/2006_songs.txt
+
+#begin Songs/2007_songs.txt
+/copy:Songs/2007_songs.txt
+
+#begin Songs/2008_songs.txt
+/copy:Songs/2008_songs.txt
+
+#begin Songs/2009_songs.txt
+/copy:Songs/2009_songs.txt
+
+#begin Songs/2010_songs.txt
+/copy:Songs/2010_songs.txt
+
+#begin Songs/2011_songs.txt
+/copy:Songs/2011_songs.txt
+
+#begin Songs/2012_songs.txt
+/copy:Songs/2012_songs.txt
+
+#begin Songs/2013_songs.txt
+/copy:Songs/2013_songs.txt
+
+#begin Songs/2014_songs.txt
+/copy:Songs/2014_songs.txt
+
+#begin Songs/2015_songs.txt
+/copy:Songs/2015_songs.txt
+
+#begin Songs/2016_songs.txt
+/copy:Songs/2016_songs.txt
+
+#begin Songs/2017_songs.txt
+/copy:Songs/2017_songs.txt
+
+#begin Songs/2018_songs.txt
+/copy:Songs/2018_songs.txt
+
+#begin Songs/2019_songs.txt
+/copy:Songs/2019_songs.txt
+
+#begin Songs/2020_songs.txt
+/copy:Songs/2020_songs.txt
 

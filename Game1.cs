@@ -40,8 +40,7 @@ namespace Hangman
             title = Content.Load<SpriteFont>("Fonts/Title");
 
 
-            for (int i = 0; i < 7; i++)
-                images[i] = Content.Load<Texture2D>($"Images/{i}_wrong");
+
 
             //The letter selection in string form
             letters = "ABCDEFGHI-JKLMNOPQR-STUVWXYZ";
@@ -62,7 +61,8 @@ namespace Hangman
 
             //See reset function at the bottom to know more of what happens
             Reset();
-
+            for (int i = 0; i < 7; i++)
+                images[i] = Content.Load<Texture2D>($"Images/{i}_wrong");
         }
 
 
@@ -224,7 +224,7 @@ namespace Hangman
 
         void Reset()
         {
-            int windowWidth = 575;
+            int windowWidth = 570;
 
             // TODO: use this.Content to load your game content here
 

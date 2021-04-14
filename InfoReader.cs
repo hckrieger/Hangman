@@ -28,7 +28,7 @@ namespace Hangman
                 songInfo.Clear();
 
 
-            year = randomYear.Next(1987, 2004);
+            year = randomYear.Next(1954, 2021);
             
             StreamReader songReader = new StreamReader($"Content/Songs/{year}_songs.txt");
 
