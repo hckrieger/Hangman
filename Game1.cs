@@ -39,8 +39,9 @@ namespace Hangman
             letterDisplay = Content.Load<SpriteFont>("Fonts/LetterDisplay");
             title = Content.Load<SpriteFont>("Fonts/Title");
 
-
-
+            //Load the images for the man to be hung 
+            for (int i = 0; i < 7; i++)
+                images[i] = Content.Load<Texture2D>($"Images/{i}_wrong");
 
             //The letter selection in string form
             letters = "ABCDEFGHI-JKLMNOPQR-STUVWXYZ";
@@ -61,8 +62,7 @@ namespace Hangman
 
             //See reset function at the bottom to know more of what happens
             Reset();
-            for (int i = 0; i < 7; i++)
-                images[i] = Content.Load<Texture2D>($"Images/{i}_wrong");
+
         }
 
 
