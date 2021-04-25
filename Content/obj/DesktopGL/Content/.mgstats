@@ -1,5 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterDisplay.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Fonts/LetterDisplay.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.400398
+"C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterDisplay.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Fonts/LetterDisplay.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.3781884
 "C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterSelect.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Fonts/LetterSelect.xnb","FontDescriptionProcessor","SpriteFontContent",2005,37922,0.3283904
 "C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/Title.spritefont","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Fonts/Title.xnb","FontDescriptionProcessor","SpriteFontContent",2005,70690,0.4424983
 "C:/Users/Hunter K/source/repos/Hangman/Content/Images/0_wrong.png","C:/Users/Hunter K/source/repos/Hangman/Content/bin/DesktopGL/Content/Images/0_wrong.xnb","TextureProcessor","Texture2DContent",535,49285,0.2539936
@@ -17,7 +17,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1959_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1959_songs.txt","CopyItem","File",807,807,0.0013819
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1960_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1960_songs.txt","CopyItem","File",883,883,0.0034777
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1961_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1961_songs.txt","CopyItem","File",760,760,0.0013699
-"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1962_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1962_songs.txt","CopyItem","File",844,844,0.0015712
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1962_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1962_songs.txt","CopyItem","File",843,843,0.0038237
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1963_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1963_songs.txt","CopyItem","File",828,828,0.0034419
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1964_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1964_songs.txt","CopyItem","File",987,987,0.0037462
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1965_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1965_songs.txt","CopyItem","File",981,981,0.001489
@@ -45,7 +45,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1987_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1987_songs.txt","CopyItem","File",913,913,0.0060591
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1988_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1988_songs.txt","CopyItem","File",830,830,0.0073086
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1989_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1989_songs.txt","CopyItem","File",850,850,0.0077114
-"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1990_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1990_songs.txt","CopyItem","File",754,754,0.0068408
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1990_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1990_songs.txt","CopyItem","File",753,753,0.0035748
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1994_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1994_songs.txt","CopyItem","File",668,668,0.0087411
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1995_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1995_songs.txt","CopyItem","File",806,806,0.002889
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/1996_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/1996_songs.txt","CopyItem","File",792,792,0.0028821
@@ -54,7 +54,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2002_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2002_songs.txt","CopyItem","File",737,737,0.0076508
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2003_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2003_songs.txt","CopyItem","File",723,723,0.00314
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2004_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2004_songs.txt","CopyItem","File",739,739,0.0072198
-"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2005_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2005_songs.txt","CopyItem","File",781,781,0.0032395
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2005_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2005_songs.txt","CopyItem","File",1097,1097,0.003632
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2006_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2006_songs.txt","CopyItem","File",805,805,0.0031776
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2007_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2007_songs.txt","CopyItem","File",789,789,0.0034614
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2008_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2008_songs.txt","CopyItem","File",713,713,0.0040566
@@ -68,5 +68,5 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2016_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2016_songs.txt","CopyItem","File",910,910,0.0035252
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2017_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2017_songs.txt","CopyItem","File",855,855,0.0047231
 "C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2018_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2018_songs.txt","CopyItem","File",881,881,0.0038565
-"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2019_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2019_songs.txt","CopyItem","File",867,867,0.0014413
-"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2020_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2020_songs.txt","CopyItem","File",776,776,0.0012822
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2019_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2019_songs.txt","CopyItem","File",1775,1775,0.0074344
+"C:/Users/Hunter K/source/repos/Hangman/Content/Songs/2020_songs.txt","C:\Users\Hunter K\source\repos\Hangman\Content\bin\DesktopGL\Content\Songs/2020_songs.txt","CopyItem","File",1546,1546,0.0034728

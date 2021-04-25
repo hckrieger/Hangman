@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using MonoGame.Extended.Input;
 using MonoGame.Extended;
+using System;
 
 namespace Hangman
 {
@@ -22,6 +23,9 @@ namespace Hangman
         readonly InfoReader infoReader = new InfoReader();
         bool finish = false;
         readonly Dictionary<int, Texture2D> images = new Dictionary<int, Texture2D>();
+        readonly int lineSpacing = 21;
+        float attempts = 0, successes = 0;
+        int xLetterOffset = 125;
 
         public Game1()
         {
@@ -120,6 +124,8 @@ namespace Hangman
                         //if the number of revealed letters is equal to the number of letters in the song/artist name...
                         if (revealedLetters >= answerObj.LetterCount)
                         {
+                            attempts++;
+                            successes++;
                             //Then display the win text and mark the game as finished
                             display = "You Win! Press any button to play again";
                             finish = true;
@@ -127,12 +133,14 @@ namespace Hangman
                         // but if the number of wrong tries is equal to six....
                         else if (wrongTries >= 6)
                         {
+                            attempts++;
                             //Then reveal all the letters of the song/artist name, display the loss text and mark the game as finished
                             for (int i = 0; i < answerObj.SongCharCount; i++)
                                 answerObj.SongCharObj[i].IsVisible = true;
 
                             for (int i = 0; i < answerObj.ArtistCharCount; i++)
                                 answerObj.ArtistCharObj[i].IsVisible = true;
+
                             display = "You Lose! Press any button to play again";
                             finish = true;
                         }
@@ -156,9 +164,11 @@ namespace Hangman
             GraphicsDevice.Clear(Color.Beige);
             _spriteBatch.Begin();
 
+            //Display title name
             string gameName = "Pop, Rock 'n' Hang 'em!";
             _spriteBatch.DrawString(title, gameName, new Vector2(CenterToWidth(), 52) - CenterText(gameName, title), Color.Black);
 
+            //Turn the letter red if it's been selected; black if it hasn't yet
             for (int y = 0; y < divider.Length; y++)
             {
                 for (int x = 0; x < rowLetters[y].Length; x++)
@@ -173,22 +183,30 @@ namespace Hangman
                 }
             }
             
-            Vector2 CenterImage(Texture2D image) { return new Vector2(image.Width, image.Height) / 2; }
-            Vector2 CenterText(string text, SpriteFont font) { return font.MeasureString(text) / 2; }
-            int CenterToWidth() { return _graphics.PreferredBackBufferWidth / 2; }
+            Vector2 CenterImage(Texture2D image) { return new Vector2(image.Width, image.Height) / 2; }  //Function for centering image
+            Vector2 CenterText(string text, SpriteFont font) { return font.MeasureString(text) / 2; }  //Function for centering text
+            int CenterToWidth() { return _graphics.PreferredBackBufferWidth / 2; } //Function for detecting the center of the window, which changes
 
             string hint = $"Hint: Popular song from {infoReader.RandomYear}";
+            string score = $"Success Rate: {SuccessRate(attempts, successes)}%";
+           
+            //When the game is finished display the score and message
+            if (finish) 
+            {
+                _spriteBatch.DrawString(letterDisplay, display, new Vector2(CenterToWidth(), 300) - CenterText(display, letterDisplay), Color.Black);
+                _spriteBatch.DrawString(letterDisplay, score, new Vector2(CenterToWidth(), 176) - CenterText(score, letterDisplay), Color.Black);
+            }
 
-            _spriteBatch.DrawString(letterDisplay, hint, new Vector2(CenterToWidth(), 135) - CenterText(hint, letterDisplay), Color.Black);
             _spriteBatch.DrawString(letterDisplay, "Song: ", new Vector2(50, 200), Color.Black);
             _spriteBatch.DrawString(letterDisplay, "Artist: ", new Vector2(50, 250), Color.Black);
+            _spriteBatch.DrawString(letterDisplay, hint, new Vector2(CenterToWidth(), 135) - CenterText(hint, letterDisplay), Color.Black);
 
-            var xOffset = 125;
-            var xSpacing = 23;
-            var lineLength = 18;
-            var lineHeight = 1.75f;
+            
+            var lineLength = 17;
+            var lineHeight = 1.65f;
             var lineCentering = lineLength / 2;
 
+            //Function that loops through and displays the letters of the song/artist with the letter characters underlined
             void AnswerDraw(int charCount, Character[] character, int charPos, int linePos)
             {
                 for (int i = 0; i < charCount; i++)
@@ -196,24 +214,21 @@ namespace Hangman
                     Vector2 measure = letterDisplay.MeasureString(character[i].Char.ToString());
 
                     if (character[i].IsVisible)
-                        _spriteBatch.DrawString(letterDisplay, character[i].Char.ToString(), new Vector2(xOffset + ((i * xSpacing)), charPos) - measure / 2, Color.Black);
+                        _spriteBatch.DrawString(letterDisplay, character[i].Char.ToString(), new Vector2(xLetterOffset + ((i * lineSpacing)), charPos) - measure / 2, Color.Black);
 
                     if (character[i].IsLetter)
-                        _spriteBatch.FillRectangle(new RectangleF((xOffset + (i * xSpacing) - lineCentering), linePos, lineLength, lineHeight), Color.Black);
+                        _spriteBatch.FillRectangle(new RectangleF((xLetterOffset + (i * lineSpacing) - lineCentering), linePos, lineLength, lineHeight), Color.Black);
                 }
             }
 
-
+            //Draw the (hidden) song name characters with underlines 
             AnswerDraw(answerObj.SongCharCount, answerObj.SongCharObj, 210, 220);
 
+            //Draw the (hidden) artist name characters with underlines 
             AnswerDraw(answerObj.ArtistCharCount, answerObj.ArtistCharObj, 260, 270);
 
-
+            //Draw the hangman graphic and add limb per wrong try.  There are six tries. 
             _spriteBatch.Draw(images[wrongTries], new Vector2(475, 380) - CenterImage(images[wrongTries]), Color.Black);
-
-            //_spriteBatch.DrawString(letterDisplay, infoReader.songInfo.Count.ToString(), new Vector2(100, 350), Color.Black);
-        
-            _spriteBatch.DrawString(letterDisplay, display, new Vector2(CenterToWidth(), 300) - CenterText(display, letterDisplay), Color.Black);
 
             _spriteBatch.End();
 
@@ -222,12 +237,22 @@ namespace Hangman
             base.Draw(gameTime);
         }
 
+        //Method that pulls the successrate to the hudredth percentage from the number of tries and successes
+        float SuccessRate(float attempts, float successes)
+        {
+            float rawPercentage = this.successes / this.attempts;
+            float adjustedPercentage = rawPercentage * 100;
+
+            return (float)Math.Round(adjustedPercentage, 2);
+        }
+
+        //Function that starts and resets logic every game
         void Reset()
         {
             int windowWidth = 570;
 
             // TODO: use this.Content to load your game content here
-
+            
 
             //The reset function of the infoReader object, where the song is chosen from textfiles
             infoReader.Reset();
@@ -235,19 +260,16 @@ namespace Hangman
             //Pick a song
             answerStr = infoReader.PickSong;
 
-            //The display that enters win/loss status
-            display = "";
-
             
             revealedLetters = 0;
             wrongTries = 0;
 
             answerObj = new Answer(answerStr); //put the song in the answer object 
 
-            int lastSongCharPos = 125 + (answerObj.SongCharCount * 23) + 50;  // position of the last character of the song
-            int lastArtistCharPos = 125 + (answerObj.ArtistCharCount * 23) + 50; // position of the last character of the artist
-            //int hangManPos = 
-
+            int lastSongCharPos = xLetterOffset + (answerObj.SongCharCount * lineSpacing) + 50;  // position of the last character of the song
+            int lastArtistCharPos = xLetterOffset + (answerObj.ArtistCharCount * lineSpacing) + 50; // position of the last character of the artist
+            
+            //Gets the position of the longest of the last character of the artist or song.  
             int lastCharPos = MathHelper.Max(lastSongCharPos, lastArtistCharPos);
 
             //If the last character of the name or artist is longer than the window width or the other than expand the window size to fit
@@ -256,6 +278,7 @@ namespace Hangman
             else
                 _graphics.PreferredBackBufferWidth = windowWidth;
 
+            //Set the window height
             _graphics.PreferredBackBufferHeight = 480;
             _graphics.ApplyChanges();
 

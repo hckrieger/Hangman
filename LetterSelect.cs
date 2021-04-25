@@ -3,6 +3,7 @@ using MonoGame.Extended;
 
 namespace Hangman
 {
+    //Class that handles information pertaining to the grid of letters that player selects from
     class LetterSelect
     {
         readonly char letter;
@@ -19,6 +20,7 @@ namespace Hangman
             this.answerStr = answerStr;
             BoundingBox = boundingBox;
 
+            //Character is true if it is a letter and false if it's not. 
             if (answerStr.Contains(letter.ToString()) || answerStr.Contains(letter.ToString().ToLower()))
                 letterExistsInString = true;
             else
