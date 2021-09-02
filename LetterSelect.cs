@@ -14,7 +14,7 @@ namespace Hangman
 
         readonly bool letterExistsInString;
 
-        public LetterSelect(char letter, RectangleF boundingBox, string answerStr)
+        public LetterSelect(char letter, RectangleF boundingBox, ref string answerStr)
         {
             this.letter = letter;
             this.answerStr = answerStr;

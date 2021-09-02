@@ -292,7 +292,7 @@ namespace Hangman
 
                     RectangleF bounds = new RectangleF(x * spacing + offset.X, y * spacing + offset.Y, letterSize.X, letterSize.Y);
 
-                    letterGrid[x, y] = new LetterSelect(rowLetters[y][x], bounds, answerStr);
+                    letterGrid[x, y] = new LetterSelect(rowLetters[y][x], bounds, ref answerStr);
 
                 }
             }

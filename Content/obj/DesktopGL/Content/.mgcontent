@@ -4,16 +4,16 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterDisplay.spritefont</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/LetterSelect.spritefont</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Fonts/Title.spritefont</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Images/0_wrong.png</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Images/1_wrong.png</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Images/2_wrong.png</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Images/3_wrong.png</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Images/4_wrong.png</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Images/5_wrong.png</File>
-    <File>C:/Users/Hunter K/source/repos/Hangman/Content/Images/6_wrong.png</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Fonts/LetterDisplay.spritefont</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Fonts/LetterSelect.spritefont</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Fonts/Title.spritefont</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Images/0_wrong.png</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Images/1_wrong.png</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Images/2_wrong.png</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Images/3_wrong.png</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Images/4_wrong.png</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Images/5_wrong.png</File>
+    <File>C:/Users/hunte/source/repos/MonoGame/Hangman/Content/Images/6_wrong.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

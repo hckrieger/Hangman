@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "VrXWRcbQ+mm43MxzIsg3LrzDqNOnY9TivRF0tNW4+HS3p9ceRP7u01t/dvgURapb81irQfIp9rHZGeNAqqUrVg==",
+  "dgSpecHash": "lcS+7vexL8FGyLo4ROIgwTghHT1kr9qcId2h3eDsQdRfnF9QF+uv1R7nU5RD0uACg8oNg1WIq+TE+Albo+soNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hunter K\\source\\repos\\Hangman\\Hangman.csproj",
+  "projectFilePath": "C:\\Users\\hunte\\source\\repos\\MonoGame\\Hangman\\Hangman.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hunter K\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\Hunter K\\.nuget\\packages\\monogame.extended\\3.8.0\\monogame.extended.3.8.0.nupkg.sha512",
-    "C:\\Users\\Hunter K\\.nuget\\packages\\monogame.extended.input\\3.8.0\\monogame.extended.input.3.8.0.nupkg.sha512",
-    "C:\\Users\\Hunter K\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\Hunter K\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\hunte\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\hunte\\.nuget\\packages\\monogame.extended\\3.8.0\\monogame.extended.3.8.0.nupkg.sha512",
+    "C:\\Users\\hunte\\.nuget\\packages\\monogame.extended.input\\3.8.0\\monogame.extended.input.3.8.0.nupkg.sha512",
+    "C:\\Users\\hunte\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\hunte\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
